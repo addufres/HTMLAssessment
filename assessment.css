@@ -1,0 +1,42 @@
+h1,h2,h3,h4,h5,h6 {
+  color: darkred;
+  font-family: sans-serif;
+}
+
+#scoreBoard,th, tr, td {
+  border: 2px solid darkgray;
+  text-align: center;
+}
+th {
+  color: darkgreen;
+  font-weight: bold;
+}
+ul {
+  list-style: square;
+}
+.hyperLink {
+  text-decoration: none;
+}
+.hyperLink:hover {
+  background-color: orange;
+}
+.hyperLink:link {
+  color: blue;
+}
+.hyperLink:visited {
+  color: rebeccaPurple;
+}
+blockquote {
+  background-color: black;
+  color: lime;
+}
+img {
+  position: absolute;
+  padding-top: 50px;
+  top: auto;
+  left: 100px;
+  z-index: -1;
+}
+#checkbox-grid > li {
+  list-style: none;
+}
