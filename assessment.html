@@ -18,7 +18,7 @@
 
       <p><strong>Etiam</strong> gravida sollicitudin mollis. Etiam eu tempor justo. Integer sit amet ante porttitor leo eleifend cursus in at velit. Donec placerat vestibulum mollis. Integer dignissim vitae eros ut consectetur. Maecenas commodo bibendum
         interdum. Mauris faucibus massa a metus gravida semper. Sed a hendrerit nunc, eget accumsan turpis.</p>
-
+      <hr>
       <h2>TABLE</h2>
       <table>
         <thead>
@@ -62,38 +62,80 @@
           </tr>
         </tfoot>
       </table>
+      <hr>
       <h2>LIST</h2>
       <ul>
         <li>
-          <p>New England Patriots</p>
+          <a href="http://www.patriots.com/">
+            <img src="https://upload.wikimedia.org/wikipedia/en/b/b9/New_England_Patriots_logo.svg" height="20" width="40">
+            <p>New England Patriots</p>
+          </a>
+        </li>
+        <ul>
+          <li>
+            <p>QB</p>
+          </li>
           <ul>
             <li>
-              <p>QB</p>
-              <ul>
-                <li>
-                  <p>Tom Brady</p>
-                </li>
-              </ul>
+              <p>Tom Brady</p>
             </li>
           </ul>
-        </li>
+        </ul>
         <li>
-          <p>Denver Broncos</p>
+          <a href="http://www.denverbroncos.com/">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Denver_Broncos_logo.svg/120px-Denver_Broncos_logo.svg.png" height="20" width="40">
+            <p>Denver Broncos</p>
+          </a>
+        </li>
+        <ul>
+          <li>
+            <p>QB</p>
+          </li>
           <ul>
             <li>
-              <p>QB</p>
-              <ul>
-                <li>
-                  <p>Peyton Manning</p>
-                </li>
-                <li>
-                  <p>Brock Ostweiler</p>
-                </li>
-              </ul>
+              <p>Peyton Manning</p>
+            </li>
+            <li>
+              <p>Brock Ostweiler</p>
             </li>
           </ul>
-        </li>
+        </ul>
       </ul>
+      <hr>
+      <h2>FORM</h2>
+      <form>
+        <fieldset>
+          <fieldset>
+            <legend>Full Name</legend>
+            <p>First<input type="text"> Last<input type="text"></p>
+          </fieldset>
+          <fieldset>
+            <legend>Favorite Sport</legend>
+            <select>
+              <option value="soccer">Soccer</option>
+              <option value="football">Football</option>
+              <option value="hockey">Hockey</option>
+              <option value="baseball">Baseball</option>
+              <option value="racing">Autosports</option>
+            </select>
+          </fieldset>
+          <fieldset>
+            <legend>Have you ever:</legend>
+            <input type="checkbox" name="played" value="played">Played
+            <input type="checkbox" name="attended" value="attended">Attended
+            <input type="checkbox" name="coached" value="coached">Coached
+            <input type="checkbox" name="bet" value="bet">Bet on
+          </fieldset>
+          <fieldset>
+            <legend>Which league do you prefer?</legend>
+            <input type="radio" name="amateur" value="amateur">Amateur
+            <input type="radio" name="college" value="college">College
+            <input type="radio" name="pro" value="pro">Professional
+          </fieldset>
+        <fieldset>
+            <p>Click here to submit information<br><input type="submit"></p><br>
+        </fieldset>
+      </form>
 
 </body>
 
