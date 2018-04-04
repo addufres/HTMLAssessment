@@ -30,12 +30,30 @@ blockquote {
   background-color: black;
   color: lime;
 }
+tbody > tr:first-child {
+  background-color: orange;
+  opacity: .75;
+}
+tbody > tr:last-child {
+  background-color: lightblue;
+  opacity: .75;
+}
+thead, tfoot {
+  background-color: yellow;
+  opacity: .75;
+}
 #teamRoster > li > img {
   position: absolute;
   padding-top: 50px;
+  width: 100px;
+  height: 50px;
   left: 100px;
   z-index: -1;
+  opacity: .3;
 }
 #checkbox-grid > li {
   list-style: none;
+}
+#teamRoster > li > ul > li > ol > li:first-child {
+  font-weight: bold;
 }
